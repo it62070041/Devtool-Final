@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+    back_end:
+        image: 62070041/backend
+        build:
+            context: ./back-end
+            dockerfile: ./Dockerfile

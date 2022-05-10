@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+    back_end:
+        image: 62070041/backend
+        ports:
+            - 3041:3041
+        environment:
+            - CONNECTION_URL=mongodb+srv://chanakarn:it62070041@devtools.xxrqe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

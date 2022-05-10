@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    back_end:
+        build:
+            context: ./back-end
+            dockerfile: ./Dockerfile
+        ports:
+            - 3041:3041
+        volumes:
+            - ./back-end:/usr/src/app
+        restart: unless-stopped
