@@ -13,5 +13,8 @@ cd Devtool-Final
 ```
 docker compose up -d
 ```
-
+4. backend 
+```
+http://localhost:3013
+```
 ดูข้อมูลอื่นๆได้ใน [wiki](https://github.com/it62070041/Devtool-Final/wiki)
